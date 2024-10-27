@@ -6,7 +6,7 @@
 
 
 # Thought process
-Initially I was using a ConcurrentHashMap to save number of calls with a given id, but this will not be shared when
+Initially I was using a ConcurrentHashMap to ids with which the endpoint was already called, but this will not be shared when
 we have multiple instances of our application. Because of that it will now be stored in redis which can be used be multiple instances at once. 
 For the third extension data is now also being send to kafka. 
 
