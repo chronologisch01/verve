@@ -2,6 +2,7 @@
 1. Run zookeeper, kafka and redis from docker compose file
 2. Run app for example wih ```gradle bootRun```
 
+(I also provided a jar file called "coding-challenge-0.0.1-SNAPSHOT.jar")
 
 
 # Thought process
@@ -18,3 +19,4 @@ For the third extension data is now also being send to kafka.
 * Im running the app locally instead of inside a docker container
 * Data could be send to kafka in a better format
 * Logic should be split into more classes
+* Tests should be written
